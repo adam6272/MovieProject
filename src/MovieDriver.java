@@ -41,6 +41,7 @@ public class MovieDriver {
 			answer = keyboard.next();
 			keyboard.nextLine();
 		} while (answer.equalsIgnoreCase("y"));
+		System.out.println("Goodbye!");
 	}
 
 }
